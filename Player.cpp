@@ -183,8 +183,9 @@ void Player::Update(bool isShoot, int shootDelay)
 		scrollAmount.x += move.x;
 		scrollAmount.y += move.y;*/
 		Vec2 toMove = Vec2(vel.x * (speed), vel.y * (speed));
-		move.x = Easing::Lerp(move.x, toMove.x, 0.05f);
-		move.y = Easing::Lerp(move.y, toMove.y, 0.05f);
+		float lerpRate = Easing::Lerp(0.05f, 0.2f, speed / PLAYER_MAX_SPEED);
+		move.x = Easing::Lerp(move.x, toMove.x, lerpRate);
+		move.y = Easing::Lerp(move.y, toMove.y, lerpRate);
 		pos += move;
 
 		moveBuff += move;
