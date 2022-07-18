@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\弾関係">
+      <UniqueIdentifier>{dd8c2ae7-d588-4efa-abcc-0005091f6df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\敵関係">
+      <UniqueIdentifier>{013dd55f-a932-480e-9fbf-c46657a7a636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\アイテム関係">
+      <UniqueIdentifier>{b4ac73ae-3e22-4708-99d0-2940d1886d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\プレイヤー関係">
+      <UniqueIdentifier>{dba97d51-9d07-483a-966f-1aa9a86e4cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン関係">
+      <UniqueIdentifier>{f1f1c180-98e2-4332-8947-959cec24db6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\その他">
+      <UniqueIdentifier>{3e48d095-eff0-44a6-a813-5bbf8cd7ee50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン関係">
+      <UniqueIdentifier>{fa34c7a0-825d-4fde-b05d-28922d4a21a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\敵関係">
+      <UniqueIdentifier>{a4094470-af74-4478-a1fe-49a06052f984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\弾関係">
+      <UniqueIdentifier>{c537a882-984b-4d7f-8293-e7d5d4850bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\プレイヤー関係">
+      <UniqueIdentifier>{bcf5eaa9-1cfb-4dee-9a5c-f5a2434c106a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\アイテム関係">
+      <UniqueIdentifier>{2f9bc9b9-8b28-4e92-8419-5155ef2df7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\その他">
+      <UniqueIdentifier>{08347f0e-97d3-4b53-a7d1-f0d4e355ae5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseLayout.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ソース ファイル\弾関係</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEffectManager.cpp">
+      <Filter>ソース ファイル\弾関係</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>ソース ファイル\弾関係</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterLogin.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleEnemy.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>ソース ファイル\その他</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing.cpp">
+      <Filter>ソース ファイル\その他</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAppearManager.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHitEffect.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHitEffectManager.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyInterFace.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyWave.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitEnemyt.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="GaugeItemManager.cpp">
+      <Filter>ソース ファイル\アイテム関係</Filter>
+    </ClCompile>
+    <ClCompile Include="GaugeItem.cpp">
+      <Filter>ソース ファイル\アイテム関係</Filter>
+    </ClCompile>
+    <ClCompile Include="HexagonFloor.cpp">
+      <Filter>ソース ファイル\その他</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ソース ファイル\アイテム関係</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>ソース ファイル\アイテム関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\プレイヤー関係</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerOrbit.cpp">
+      <Filter>ソース ファイル\プレイヤー関係</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTransition.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="WayBullet.cpp">
+      <Filter>ソース ファイル\弾関係</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEmitter.cpp">
+      <Filter>ソース ファイル\その他</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>ソース ファイル\その他</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAppearEffect.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAppearEffectEmitter.cpp">
+      <Filter>ソース ファイル\敵関係</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>ソース ファイル\その他</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>ソース ファイル\その他</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFinish.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>ソース ファイル\シーン関係</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseLayout.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ヘッダー ファイル\弾関係</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEffectManager.h">
+      <Filter>ヘッダー ファイル\弾関係</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>ヘッダー ファイル\弾関係</Filter>
+    </ClInclude>
+    <ClInclude Include="WayBullet.h">
+      <Filter>ヘッダー ファイル\弾関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAppearManager.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHitEffect.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyInterFace.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHitEffectManager.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyWave.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleEnemy.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitEnemyt.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterLogin.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEmitter.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>ヘッダー ファイル\アイテム関係</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>ヘッダー ファイル\アイテム関係</Filter>
+    </ClInclude>
+    <ClInclude Include="GaugeItemManager.h">
+      <Filter>ヘッダー ファイル\アイテム関係</Filter>
+    </ClInclude>
+    <ClInclude Include="GaugeItem.h">
+      <Filter>ヘッダー ファイル\アイテム関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\プレイヤー関係</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerOrbit.h">
+      <Filter>ヘッダー ファイル\プレイヤー関係</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTransition.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChanger.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="HexagonFloor.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAppearEffect.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAppearEffectEmitter.h">
+      <Filter>ヘッダー ファイル\敵関係</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFinish.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>ヘッダー ファイル\その他</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>ヘッダー ファイル\シーン関係</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
